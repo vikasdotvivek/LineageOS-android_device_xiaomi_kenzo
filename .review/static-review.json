@@ -1,0 +1,1321 @@
+{
+  "generator": "repository-static-triage",
+  "version": "1.0",
+  "repository": "vikasdotvivek/LineageOS-android_device_xiaomi_kenzo",
+  "revision": "e7b5cec1dc6ce144b5df9e544c2a702628d06e0a",
+  "tracked_files": 276,
+  "scanned": [
+    {
+      "path": "bluetooth/bdroid_buildcfg.h",
+      "lines": 35,
+      "bytes": 1281
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_CmdQueue.h",
+      "lines": 107,
+      "bytes": 2681
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Config.h",
+      "lines": 350,
+      "bytes": 10175
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_ConntrackClient.h",
+      "lines": 104,
+      "bytes": 3807
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_ConntrackListener.h",
+      "lines": 105,
+      "bytes": 3141
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Conntrack_NATApp.h",
+      "lines": 133,
+      "bytes": 3665
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Defs.h",
+      "lines": 360,
+      "bytes": 12353
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_EvtDispatcher.h",
+      "lines": 76,
+      "bytes": 2361
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Filtering.h",
+      "lines": 75,
+      "bytes": 2707
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Header.h",
+      "lines": 70,
+      "bytes": 2383
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Iface.h",
+      "lines": 158,
+      "bytes": 4723
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_IfaceManager.h",
+      "lines": 91,
+      "bytes": 2667
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Lan.h",
+      "lines": 517,
+      "bytes": 15636
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_LanToLan.h",
+      "lines": 175,
+      "bytes": 5041
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Listener.h",
+      "lines": 54,
+      "bytes": 1927
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Log.h",
+      "lines": 100,
+      "bytes": 3874
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Neighbor.h",
+      "lines": 81,
+      "bytes": 2353
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Netlink.h",
+      "lines": 223,
+      "bytes": 6889
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Routing.h",
+      "lines": 77,
+      "bytes": 2425
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Wan.h",
+      "lines": 488,
+      "bytes": 14860
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Wlan.h",
+      "lines": 325,
+      "bytes": 10627
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/inc/IPACM_Xml.h",
+      "lines": 299,
+      "bytes": 12219
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_CmdQueue.cpp",
+      "lines": 165,
+      "bytes": 3651
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Config.cpp",
+      "lines": 774,
+      "bytes": 27068
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_ConntrackClient.cpp",
+      "lines": 652,
+      "bytes": 16531
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_ConntrackListener.cpp",
+      "lines": 1058,
+      "bytes": 29243
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Conntrack_NATApp.cpp",
+      "lines": 958,
+      "bytes": 21913
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_EvtDispatcher.cpp",
+      "lines": 206,
+      "bytes": 4595
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Filtering.cpp",
+      "lines": 454,
+      "bytes": 13412
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Header.cpp",
+      "lines": 231,
+      "bytes": 6884
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Iface.cpp",
+      "lines": 1015,
+      "bytes": 30335
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_IfaceManager.cpp",
+      "lines": 532,
+      "bytes": 20867
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Lan.cpp",
+      "lines": 7159,
+      "bytes": 231799
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_LanToLan.cpp",
+      "lines": 1605,
+      "bytes": 48356
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Log.cpp",
+      "lines": 107,
+      "bytes": 3206
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Main.cpp",
+      "lines": 977,
+      "bytes": 34426
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Neighbor.cpp",
+      "lines": 566,
+      "bytes": 22961
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Netlink.cpp",
+      "lines": 1760,
+      "bytes": 56879
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Routing.cpp",
+      "lines": 274,
+      "bytes": 6425
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Wan.cpp",
+      "lines": 5922,
+      "bytes": 195541
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Wlan.cpp",
+      "lines": 5516,
+      "bytes": 177568
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_Xml.cpp",
+      "lines": 1154,
+      "bytes": 47228
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/inc/ipa_nat_drv.h",
+      "lines": 116,
+      "bytes": 3849
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/inc/ipa_nat_drvi.h",
+      "lines": 481,
+      "bytes": 14622
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/inc/ipa_nat_logi.h",
+      "lines": 73,
+      "bytes": 2281
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/src/ipa_nat_drv.c",
+      "lines": 175,
+      "bytes": 5129
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/src/ipa_nat_drvi.c",
+      "lines": 2300,
+      "bytes": 65563
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/src/ipa_nat_logi.c",
+      "lines": 49,
+      "bytes": 1721
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test.h",
+      "lines": 104,
+      "bytes": 3587
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test000.c",
+      "lines": 69,
+      "bytes": 2498
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test001.c",
+      "lines": 77,
+      "bytes": 2607
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test002.c",
+      "lines": 85,
+      "bytes": 2707
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test003.c",
+      "lines": 82,
+      "bytes": 2729
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test004.c",
+      "lines": 70,
+      "bytes": 2417
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test005.c",
+      "lines": 83,
+      "bytes": 2779
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test006.c",
+      "lines": 91,
+      "bytes": 2890
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test007.c",
+      "lines": 88,
+      "bytes": 2887
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test008.c",
+      "lines": 94,
+      "bytes": 3142
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test009.c",
+      "lines": 96,
+      "bytes": 3146
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test010.c",
+      "lines": 108,
+      "bytes": 3570
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test011.c",
+      "lines": 108,
+      "bytes": 3500
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test012.c",
+      "lines": 109,
+      "bytes": 3493
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test013.c",
+      "lines": 108,
+      "bytes": 3565
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test014.c",
+      "lines": 95,
+      "bytes": 3052
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test015.c",
+      "lines": 97,
+      "bytes": 3054
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test016.c",
+      "lines": 96,
+      "bytes": 3053
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test017.c",
+      "lines": 96,
+      "bytes": 3053
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test018.c",
+      "lines": 96,
+      "bytes": 3051
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test019.c",
+      "lines": 96,
+      "bytes": 3051
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test020.c",
+      "lines": 100,
+      "bytes": 3217
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test021.c",
+      "lines": 81,
+      "bytes": 2778
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test022.c",
+      "lines": 118,
+      "bytes": 3802
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/main.c",
+      "lines": 640,
+      "bytes": 15324
+    },
+    {
+      "path": "extract-files.sh",
+      "lines": 57,
+      "bytes": 1425
+    },
+    {
+      "path": "gps/core/ContextBase.cpp",
+      "lines": 114,
+      "bytes": 4370
+    },
+    {
+      "path": "gps/core/ContextBase.h",
+      "lines": 74,
+      "bytes": 3186
+    },
+    {
+      "path": "gps/core/LBSProxyBase.h",
+      "lines": 65,
+      "bytes": 2701
+    },
+    {
+      "path": "gps/core/LocAdapterBase.cpp",
+      "lines": 142,
+      "bytes": 4514
+    },
+    {
+      "path": "gps/core/LocAdapterBase.h",
+      "lines": 119,
+      "bytes": 4886
+    },
+    {
+      "path": "gps/core/LocAdapterProxyBase.h",
+      "lines": 70,
+      "bytes": 2878
+    },
+    {
+      "path": "gps/core/LocApiBase.cpp",
+      "lines": 553,
+      "bytes": 18262
+    },
+    {
+      "path": "gps/core/LocApiBase.h",
+      "lines": 261,
+      "bytes": 10338
+    },
+    {
+      "path": "gps/core/LocDualContext.cpp",
+      "lines": 147,
+      "bytes": 5746
+    },
+    {
+      "path": "gps/core/LocDualContext.h",
+      "lines": 76,
+      "bytes": 3324
+    },
+    {
+      "path": "gps/core/UlpProxyBase.h",
+      "lines": 86,
+      "bytes": 3456
+    },
+    {
+      "path": "gps/core/gps_extended.h",
+      "lines": 92,
+      "bytes": 3552
+    },
+    {
+      "path": "gps/core/gps_extended_c.h",
+      "lines": 438,
+      "bytes": 18006
+    },
+    {
+      "path": "gps/core/loc_core_log.cpp",
+      "lines": 243,
+      "bytes": 8586
+    },
+    {
+      "path": "gps/core/loc_core_log.h",
+      "lines": 58,
+      "bytes": 2544
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/LocApiRpc.h",
+      "lines": 140,
+      "bytes": 5873
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/debug.h",
+      "lines": 69,
+      "bytes": 2887
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/loc_api_fixup.h",
+      "lines": 226,
+      "bytes": 11194
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/loc_api_log.h",
+      "lines": 59,
+      "bytes": 2664
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/loc_api_rpc_glue.h",
+      "lines": 123,
+      "bytes": 3927
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/loc_api_sync_call.h",
+      "lines": 90,
+      "bytes": 3669
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/rpc_inc/loc_apicb_appinit.h",
+      "lines": 45,
+      "bytes": 1865
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/LocApiRpc.cpp",
+      "lines": 1465,
+      "bytes": 54987
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/loc_api_fixup.c",
+      "lines": 52,
+      "bytes": 1983
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/loc_api_log.c",
+      "lines": 345,
+      "bytes": 13606
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/loc_api_rpc_glue.c",
+      "lines": 636,
+      "bytes": 19368
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/loc_api_sync_call.c",
+      "lines": 565,
+      "bytes": 16538
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/src/loc_apicb_appinit.c",
+      "lines": 86,
+      "bytes": 2837
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/inc/loc_api_rpcgen_cb_rpc.h",
+      "lines": 156,
+      "bytes": 6276
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/inc/loc_api_rpcgen_common_rpc.h",
+      "lines": 1261,
+      "bytes": 53565
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/inc/loc_api_rpcgen_rpc.h",
+      "lines": 288,
+      "bytes": 12165
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/inc/loc_apicb_appinit.h",
+      "lines": 34,
+      "bytes": 1695
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_api_rpcgen_cb_svc.c",
+      "lines": 327,
+      "bytes": 10951
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_api_rpcgen_cb_xdr.c",
+      "lines": 60,
+      "bytes": 2440
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_api_rpcgen_clnt.c",
+      "lines": 155,
+      "bytes": 5572
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_api_rpcgen_common_xdr.c",
+      "lines": 1775,
+      "bytes": 53822
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_api_rpcgen_xdr.c",
+      "lines": 199,
+      "bytes": 5363
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/src/loc_apicb_appinit.c",
+      "lines": 74,
+      "bytes": 2476
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/LocEngAdapter.cpp",
+      "lines": 600,
+      "bytes": 19493
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/LocEngAdapter.h",
+      "lines": 351,
+      "bytes": 13476
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/gps.c",
+      "lines": 73,
+      "bytes": 2692
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc.cpp",
+      "lines": 1077,
+      "bytes": 29389
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc.h",
+      "lines": 66,
+      "bytes": 2579
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng.cpp",
+      "lines": 2998,
+      "bytes": 99791
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng.h",
+      "lines": 270,
+      "bytes": 10868
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_agps.cpp",
+      "lines": 970,
+      "bytes": 33001
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_agps.h",
+      "lines": 431,
+      "bytes": 14731
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn.cpp",
+      "lines": 270,
+      "bytes": 9699
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn.h",
+      "lines": 59,
+      "bytes": 2733
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_glue_msg.c",
+      "lines": 223,
+      "bytes": 6255
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_glue_msg.h",
+      "lines": 51,
+      "bytes": 2264
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_glue_pipe.c",
+      "lines": 214,
+      "bytes": 5930
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_glue_pipe.h",
+      "lines": 50,
+      "bytes": 2215
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_handler.cpp",
+      "lines": 237,
+      "bytes": 8508
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_handler.h",
+      "lines": 106,
+      "bytes": 3379
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_thread_helper.c",
+      "lines": 399,
+      "bytes": 11097
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_dmn_conn_thread_helper.h",
+      "lines": 74,
+      "bytes": 3299
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_log.cpp",
+      "lines": 35,
+      "bytes": 1699
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_log.h",
+      "lines": 44,
+      "bytes": 1761
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_msg.h",
+      "lines": 306,
+      "bytes": 8760
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_ni.cpp",
+      "lines": 414,
+      "bytes": 14982
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_ni.h",
+      "lines": 59,
+      "bytes": 2649
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_nmea.cpp",
+      "lines": 814,
+      "bytes": 27339
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_nmea.h",
+      "lines": 43,
+      "bytes": 2216
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_xtra.cpp",
+      "lines": 213,
+      "bytes": 6237
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/loc_eng_xtra.h",
+      "lines": 47,
+      "bytes": 2082
+    },
+    {
+      "path": "gps/utils/LocHeap.cpp",
+      "lines": 354,
+      "bytes": 11431
+    },
+    {
+      "path": "gps/utils/LocHeap.h",
+      "lines": 96,
+      "bytes": 4130
+    },
+    {
+      "path": "gps/utils/LocSharedLock.h",
+      "lines": 59,
+      "bytes": 2968
+    },
+    {
+      "path": "gps/utils/LocThread.cpp",
+      "lines": 264,
+      "bytes": 8671
+    },
+    {
+      "path": "gps/utils/LocThread.h",
+      "lines": 92,
+      "bytes": 3807
+    },
+    {
+      "path": "gps/utils/LocTimer.cpp",
+      "lines": 737,
+      "bytes": 27616
+    },
+    {
+      "path": "gps/utils/LocTimer.h",
+      "lines": 74,
+      "bytes": 3167
+    },
+    {
+      "path": "gps/utils/MsgTask.cpp",
+      "lines": 102,
+      "bytes": 3358
+    },
+    {
+      "path": "gps/utils/MsgTask.h",
+      "lines": 67,
+      "bytes": 2701
+    },
+    {
+      "path": "gps/utils/linked_list.c",
+      "lines": 328,
+      "bytes": 9171
+    },
+    {
+      "path": "gps/utils/linked_list.h",
+      "lines": 217,
+      "bytes": 6881
+    },
+    {
+      "path": "gps/utils/loc_cfg.cpp",
+      "lines": 400,
+      "bytes": 13502
+    },
+    {
+      "path": "gps/utils/loc_cfg.h",
+      "lines": 91,
+      "bytes": 3815
+    },
+    {
+      "path": "gps/utils/loc_log.cpp",
+      "lines": 242,
+      "bytes": 6845
+    },
+    {
+      "path": "gps/utils/loc_log.h",
+      "lines": 71,
+      "bytes": 2571
+    },
+    {
+      "path": "gps/utils/loc_misc_utils.cpp",
+      "lines": 114,
+      "bytes": 4463
+    },
+    {
+      "path": "gps/utils/loc_misc_utils.h",
+      "lines": 99,
+      "bytes": 4013
+    },
+    {
+      "path": "gps/utils/loc_target.cpp",
+      "lines": 261,
+      "bytes": 8762
+    },
+    {
+      "path": "gps/utils/loc_target.h",
+      "lines": 82,
+      "bytes": 3145
+    },
+    {
+      "path": "gps/utils/loc_timer.h",
+      "lines": 73,
+      "bytes": 3105
+    },
+    {
+      "path": "gps/utils/log_util.h",
+      "lines": 189,
+      "bytes": 7161
+    },
+    {
+      "path": "gps/utils/msg_q.c",
+      "lines": 336,
+      "bytes": 10144
+    },
+    {
+      "path": "gps/utils/msg_q.h",
+      "lines": 207,
+      "bytes": 6298
+    },
+    {
+      "path": "gps/utils/platform_lib_abstractions/elapsed_millis_since_boot.cpp",
+      "lines": 46,
+      "bytes": 1931
+    },
+    {
+      "path": "gps/utils/platform_lib_abstractions/platform_lib_includes.h",
+      "lines": 35,
+      "bytes": 1732
+    },
+    {
+      "path": "gps/utils/platform_lib_abstractions/platform_lib_macros.h",
+      "lines": 81,
+      "bytes": 3431
+    },
+    {
+      "path": "gps/utils/platform_lib_abstractions/platform_lib_time.h",
+      "lines": 35,
+      "bytes": 1725
+    },
+    {
+      "path": "init/init_kenzo.cpp",
+      "lines": 68,
+      "bytes": 2579
+    },
+    {
+      "path": "rootdir/etc/init.qcom.bt.sh",
+      "lines": 334,
+      "bytes": 9845
+    },
+    {
+      "path": "rootdir/etc/init.qcom.sh",
+      "lines": 114,
+      "bytes": 3825
+    },
+    {
+      "path": "setup-makefiles.sh",
+      "lines": 47,
+      "bytes": 1170
+    }
+  ],
+  "skipped": [
+    {
+      "path": ".github/workflows/code-improvement-review.yml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "BoardConfig.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "README.mkdn",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/audio_effects.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/audio_output_policy.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/audio_platform_info.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/audio_platform_info_extcodec.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/audio_policy.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/mixer_paths.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/sound_trigger_mixer_paths.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/sound_trigger_mixer_paths_wcd9306.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/sound_trigger_mixer_paths_wcd9330.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/sound_trigger_mixer_paths_wcd9335.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "audio/sound_trigger_platform_info.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "cm.dependencies",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "cm.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/media_codecs.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/media_codecs_performance.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/media_profiles.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/msm_irqbalance_little_big.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/sec_config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/sensors/hals.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "configs/sensors/sensor_def_qcomdev.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/configure.ac",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/IPACM_cfg.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/mobileap_firewall.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipacm/src/start_ipacm_le",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/src/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/src/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "data-ipa-cfg-mgr/ipanat/test/README.txt",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "device.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/CleanSpec.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/configure.ac",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/core/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/flp.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/gps.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/izat.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/lowi.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/sap.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/etc/xtwifi.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc-api.pc.in",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-glue/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/xdr/loc_api.xdr",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/xdr/loc_api_cb.xdr",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api-rpc-50001/libloc_api-rpc-stub/xdr/loc_api_common.xdr",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/loc_api/libloc_api_50001/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/utils/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "gps/utils/Makefile.am",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "init/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "keylayout/Atmel_maXTouch_Touchscreen.kl",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "keylayout/ft5x06_ts.kl",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "keylayout/gpio-keys.kl",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "keylayout/msm8976-tashalite-snd-card_Button_Jack.kl",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/frameworks/base/core/res/res/values/config.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/frameworks/base/core/res/res/xml/power_profile.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/frameworks/base/packages/SystemUI/res/values/config.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/packages/apps/Dialer/res/values/config.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/packages/services/Telecomm/res/values/config.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/packages/services/Telephony/res/values/config.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "overlay/vendor/cmsdk/cm/res/res/values/config.xml",
+      "reason": "generated/vendor/review path"
+    },
+    {
+      "path": "proprietary-files.txt",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/etc/fstab.qcom",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/etc/init.qcom.power.rc",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/etc/init.qcom.rc",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/etc/init.qcom.usb.rc",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rootdir/etc/ueventd.qcom.rc",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/device.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/file.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/file_contexts",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/fingerprintd.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/fsck.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/healthd.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/init.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/qti_init_shell.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/radio.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/rild.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "sepolicy/system_server.te",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "system.prop",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/Android.mk",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/WCNSS_cfg.dat",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/WCNSS_qcom_cfg.ini",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/WCNSS_qcom_wlan_nv.bin",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/WCNSS_wlan_dictionary.dat",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/hostapd_default.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/p2p_supplicant_overlay.conf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "wifi/wpa_supplicant_overlay.conf",
+      "reason": "non-source format; content not audited"
+    }
+  ],
+  "manifests": [],
+  "conventional_test_paths": [
+    "data-ipa-cfg-mgr/ipanat/test/Android.mk",
+    "data-ipa-cfg-mgr/ipanat/test/Makefile.am",
+    "data-ipa-cfg-mgr/ipanat/test/README.txt",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test.h",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test000.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test001.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test002.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test003.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test004.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test005.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test006.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test007.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test008.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test009.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test010.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test011.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test012.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test013.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test014.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test015.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test016.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test017.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test018.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test019.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test020.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test021.c",
+    "data-ipa-cfg-mgr/ipanat/test/ipa_nat_test022.c",
+    "data-ipa-cfg-mgr/ipanat/test/main.c"
+  ],
+  "findings": [],
+  "total_findings": 0,
+  "findings_omitted": 0,
+  "execution": "No repository code, tests, builds or hardware were executed."
+}
